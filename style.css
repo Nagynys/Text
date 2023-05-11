@@ -1,0 +1,132 @@
+/* Tělo */
+html {
+    background: rgb(184, 184, 184);
+}
+
+/* Základ hlavičky */
+body > header {
+    background: rgb(22, 22, 22);
+    display: flex;
+    position: fixed;
+    z-index: 1;
+    
+    width: 100%;
+    height: 4rem;
+    left: 0;
+    top: 0;
+}
+
+
+/* Nadpisy */
+h2 {
+    margin: 50px;
+}
+
+
+/* Hlavička a navigace */
+.hlavni h1 {
+    color: white;
+    font-size: 20px;
+    margin: auto 18px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;  
+}
+
+nav ul a {
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+
+    padding: 0 7px;
+}
+
+nav li {
+    margin: 7px;
+}
+
+a:hover {
+    color: gray;
+}
+
+
+/* Sekce */
+section {
+    padding: 30px;
+}
+
+/* Tabulka */
+table, td, th {
+    border: 1px solid black;
+}
+
+table {
+    width: 92%;
+    margin: 0 auto;
+
+    text-align: left;
+    box-shadow: 1px 1px 4px black;
+
+    display: auto;
+    overflow-x: auto;
+    border-spacing: 0;
+}
+
+tr {
+    height: 3rem;
+}
+
+
+/* Obrázek */
+img {
+    float: left;
+    margin: 0 80px 0 50px;
+    width: 7rem;
+}
+
+
+/* Formulář a paragrafy */
+form {     
+    display: flexbox;  
+}
+
+form p {
+    font-weight: bold;
+    margin: 15px 270px;
+}
+
+span {
+    margin-left: 375px;
+}
+
+.druhy {
+    margin-left: 393px
+}
+
+/* Input a Button */
+input {
+    height: 2.3rem;
+    width: 23rem;
+    margin: 0 15px 0 20px;
+    padding-left: 7px;
+}
+
+.button {
+    text-align: center;
+}
+
+button {
+    color: white;
+    background: rgb(37, 133, 197);
+    font-family: Arial, Helvetica, sans-serif;
+
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 7px black;
+
+    height: 2.5rem;
+    width: 8rem;
+    margin: 30px;
+}
