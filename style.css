@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+div{
+    position: absolute;
+    bottom: 30px;
+    background: red;
+    font: 20px  ;
+    padding: 10px 15px;
+    margin-left: 590px;
+
+}
+
+input{
+    width: 60px;
+    padding: 6px;
+    font-size: 18px;
+    background: lightgray;
+    border: none;
+    text-align: center;
+}
+
+label{
+    margin-right: 10px;
+}
+
+input:focus{
+    outline: none;
+}
